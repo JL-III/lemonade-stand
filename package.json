@@ -1,0 +1,25 @@
+{
+  "name": "lemonade-stand",
+  "version": "1.0.0",
+  "description": "Cooksys lemonade stand application",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "babel ./src -d ./build",
+    "prestart": "npm run build",
+    "start": "nodemon --exec babel-node src/index.js"
+  },
+  "author": "Jesse Lopez",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.18.10",
+    "@babel/node": "^7.18.10",
+    "nodemon": "^2.0.19",
+    "eslint": "^8.21.0",
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.18.10",
+    "vorpal": "^1.12.0"
+  }
+}

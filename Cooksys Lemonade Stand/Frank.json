@@ -1,0 +1,21 @@
+{
+  "total": 2.7039999999999997,
+  "lemonades": [
+    {
+      "lemonJuice": "1",
+      "water": "2",
+      "sugar": "1",
+      "iceCubes": "1",
+      "price": 1.051
+    },
+    {
+      "lemonJuice": "3",
+      "water": "3",
+      "sugar": "3",
+      "iceCubes": "3",
+      "price": 1.653
+    }
+  ],
+  "customer": { "name": "Frank", "phoneNumber": 12356465 },
+  "lemonadeStand": { "name": "Cooksys Lemonade Stand" }
+}
